@@ -1,0 +1,64 @@
+#navbar{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    gap: 20px;
+    justify-content: right;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    border: 1px solid black;
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+#navbar a:hover{
+    color: blueviolet;
+}
+
+.box{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    width: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+img{
+    height: 300px;
+    width: 80%;
+    width: fit-content;
+    margin: auto;
+}
+button{
+    border-radius: 8px;
+    color: white;
+    background-color: blueviolet;
+    height: 30px;
+    width: auto;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#menu{
+    padding: 20px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+.name{
+    color:burlywood;
+    font-size: 20px;
+}
+.price{
+    color: goldenrod;
+    font-size: 30px;
+}

@@ -1,0 +1,42 @@
+#bucket{
+    padding: 20px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+img{
+    height: 300px;
+    width: 80%;
+    width: fit-content;
+    margin: auto;
+}
+button{
+    border-radius: 8px;
+    color: white;
+    background-color: blueviolet;
+    height: 30px;
+    width: auto;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#confirm_checkout{
+    border-radius: 8px;
+    color: white;
+    background-color: goldenrod;
+    height: 30px;
+    width: auto;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.name{
+    color:burlywood;
+    font-size: 20px;
+}
+.price{
+    color: goldenrod;
+    font-size: 30px;
+}
